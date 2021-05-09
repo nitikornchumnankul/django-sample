@@ -12,6 +12,13 @@ python manage.py runserver
 ```commandline
 python manage.py startapp myapp
 ```
-
+### Starting the Admin Interface
+```commandline
+python manage.py migrate
+```
+and
+```commandline
+python manage.py createsuperuser
+```
 # References
 [Django Tutorial](https://www.tutorialspoint.com/django/index.htm)
